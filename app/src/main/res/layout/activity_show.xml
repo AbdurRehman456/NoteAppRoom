@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#170101"
+    tools:context=".ShowActivity">
+
+
+    <TextView
+        android:id="@+id/idget"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/titleAfterClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idget"
+        android:layout_marginTop="25sp"
+        android:hint="Title will show here when click on list item"
+        android:text="Abdul khan is good"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        android:textStyle="italic"
+
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/descriptionAfterClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleAfterClick"
+        android:text="Description will show here when click on list item"
+        android:textColor="@color/white">
+
+    </EditText>
+
+
+
+</RelativeLayout>
